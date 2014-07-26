@@ -35,7 +35,7 @@ std(): Standard deviation
 
 The below database has <B>mean</B and <B>standard deviation</B> value for each of these features averaged(mean computed) per activity per observation.
 
- [1] "subjectid"                      The participant / subject's identification number.
+ [1] "subjectid"                      The participant / subject's identification number.           
  [2] "activityname"                   The name of the activity being performed by the subject like walking, sitting, standing, etc.           
  [3] "time.body.acceleration.mean.x"  	Mean of tBodyAcc.mean-X            
  [4] "time.body.acceleration.mean.y"  	Mean of tBodyAcc.mean-Y            
