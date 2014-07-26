@@ -34,8 +34,7 @@ std(): Standard deviation
 
 The below database has mean and std value for each of these features 
 
- [1] "subjectid"                      The participant / subject's identification number.
- 
+ [1] "subjectid"                      The participant / subject's identification number.         
  [2] "activityname"                   The name of the activity being performed by the subject like walking, sitting, standing, etc.           
  [3] "time.body.acceleration.mean.x"              
  [4] "time.body.acceleration.mean.y"              
@@ -97,9 +96,9 @@ The below database has mean and std value for each of these features
 [60] "fft.body.gyroscope.std.z"                   
 [61] "fft.body.accelerationmagnitude.mean"        
 [62] "fft.body.accelerationmagnitude.std"         
-[63] "fft.bodybody.accelerationjerkmagnitude.mean"
-[64] "fft.bodybody.accelerationjerkmagnitude.std" 
-[65] "fft.bodybody.gyroscope.magnitude.mean"      
+[63] "fft.bodybody.accelerationjerkmagnitude.mean"         
+[64] "fft.bodybody.accelerationjerkmagnitude.std"         
+[65] "fft.bodybody.gyroscope.magnitude.mean"         
 [66] "fft.bodybody.gyroscope.magnitude.std"       
 [67] "fft.bodybody.gyroscope.jerkmagnitude.mean"  
 [68] "fft.bodybody.gyroscope.jerkmagnitude.std"
