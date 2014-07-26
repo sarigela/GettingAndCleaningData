@@ -4,14 +4,14 @@ GettingAndCleaningData
 Coursera course 3 - Getting and Cleaning Data - Course Project
 
 The repository has two files apart from this README.MD file 
-1)CodeBook and 
-2) run_analysis.R file. 
+<B>1)CodeBook</B> and 
+<B>2) run_analysis.R </B> file. 
 
-The code book lists the variables that are the outcome from the script run_analysis.R file.
+The <B>Code Book </B> lists the variables that are the outcome from the script run_analysis.R file.
 
-The run_analysis.R file has two method namely:  
-* runAnalysis() -- This performs the required project work returs a tidy data set as required. The detailed description below explains each of the steps that is done within this function.
-* setDescriptiveVariableNames() -- This function is called within runAnalysis() to create descriptive variable names for the data set. The actions performed by this function are described in STEP 4 below.
+The <B>run_analysis.R</B> file has two method namely:  
+* <B><I>runAnalysis()</I></B> -- This performs the required project work returs a tidy data set as required. The detailed description below explains each of the steps that is done within this function.
+* <B><I>setDescriptiveVariableNames()</I></B> -- This function is called within runAnalysis() to create descriptive variable names for the data set. The actions performed by this function are described in STEP 4 below.
 
 ## STEP BY STEP DESCRIPTION OF FUCNTION ACTIONS:
 
