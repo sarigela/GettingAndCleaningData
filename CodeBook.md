@@ -35,15 +35,15 @@ std(): Standard deviation
 
 The below database has <B>mean</B and <B>standard deviation</B> value for each of these features averaged(mean computed) per activity per observation.
 
- [1] "subjectid"                      The participant / subject's identification number.           
- [2] "activityname"                   The name of the activity being performed by the subject like walking, sitting, standing, etc.           
- [3] "time.body.acceleration.mean.x"  	Mean of tBodyAcc.mean-X            
- [4] "time.body.acceleration.mean.y"  	Mean of tBodyAcc.mean-Y            
- [5] "time.body.acceleration.mean.z"  	Mean of tBodyAcc.mean-Z            
- [6] "time.body.acceleration.std.x"   	Mean of tBodyAcc.std-X            
- [7] "time.body.acceleration.std.y"   	Mean of tBodyAcc.std-Y             
- [8] "time.body.acceleration.std.z"   	Mean of tBodyAcc.std-Z               
- [9] "time.gravity.acceleration.mean.x"           
+ [1] "subjectid"                     -- The participant / subject's identification number.           
+ [2] "activityname"                  -- The name of the activity being performed by the subject like walking, sitting, standing, etc.           
+ [3] "time.body.acceleration.mean.x"  --	Description: Mean of tBodyAcc.mean-X            
+ [4] "time.body.acceleration.mean.y"  	--	Description: Mean of tBodyAcc.mean-Y            
+ [5] "time.body.acceleration.mean.z"  	--	Description: Mean of tBodyAcc.mean-Z            
+ [6] "time.body.acceleration.std.x"   	--	Description: Mean of tBodyAcc.std-X            
+ [7] "time.body.acceleration.std.y"   	--	Description: Mean of tBodyAcc.std-Y             
+ [8] "time.body.acceleration.std.z"   	--	Description: Mean of tBodyAcc.std-Z               
+ [9] "time.gravity.acceleration.mean.x"  -- Description: All the below variables are the mean compuation of the variable name.         
 [10] "time.gravity.acceleration.mean.y"           
 [11] "time.gravity.acceleration.mean.z"           
 [12] "time.gravity.acceleration.std.x"            
