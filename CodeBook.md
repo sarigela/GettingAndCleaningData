@@ -12,9 +12,10 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 * Mean of Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 * Mean Triaxial Angular velocity from the gyroscope. 
-* The original data of 561-feature vector with time and frequency domain variables are cleaned up to create 68-features that are mean and standard deviation.
+* The original experiment data of 561-feature vector with time and frequency domain variables are cleaned up to create 68-features that are <B><I> mean </I></B>and <B><I>Standard Deviation </I></B>.
 * Its activity label. 
 * An identifier of the subject who carried out the experiment.
+* <B><I>NOTE: The resultant features in the tidy data set with the mean value of each feature per activity per participant. </B></I>
 
 Description of the data set:
 =============================
@@ -32,16 +33,16 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
-The below database has mean and std value for each of these features 
+The below database has <B>mean</B and <B>standard deviation</B> value for each of these features averaged(mean computed) per activity per observation.
 
- [1] "subjectid"                      The participant / subject's identification number.         
+ [1] "subjectid"                      The participant / subject's identification number.
  [2] "activityname"                   The name of the activity being performed by the subject like walking, sitting, standing, etc.           
- [3] "time.body.acceleration.mean.x"              
- [4] "time.body.acceleration.mean.y"              
- [5] "time.body.acceleration.mean.z"              
- [6] "time.body.acceleration.std.x"               
- [7] "time.body.acceleration.std.y"               
- [8] "time.body.acceleration.std.z"               
+ [3] "time.body.acceleration.mean.x"  	Mean of tBodyAcc.mean-X            
+ [4] "time.body.acceleration.mean.y"  	Mean of tBodyAcc.mean-Y            
+ [5] "time.body.acceleration.mean.z"  	Mean of tBodyAcc.mean-Z            
+ [6] "time.body.acceleration.std.x"   	Mean of tBodyAcc.std-X            
+ [7] "time.body.acceleration.std.y"   	Mean of tBodyAcc.std-Y             
+ [8] "time.body.acceleration.std.z"   	Mean of tBodyAcc.std-Z               
  [9] "time.gravity.acceleration.mean.x"           
 [10] "time.gravity.acceleration.mean.y"           
 [11] "time.gravity.acceleration.mean.z"           
@@ -96,9 +97,9 @@ The below database has mean and std value for each of these features
 [60] "fft.body.gyroscope.std.z"                   
 [61] "fft.body.accelerationmagnitude.mean"        
 [62] "fft.body.accelerationmagnitude.std"         
-[63] "fft.bodybody.accelerationjerkmagnitude.mean"         
-[64] "fft.bodybody.accelerationjerkmagnitude.std"         
-[65] "fft.bodybody.gyroscope.magnitude.mean"         
+[63] "fft.bodybody.accelerationjerkmagnitude.mean"           
+[64] "fft.bodybody.accelerationjerkmagnitude.std"           
+[65] "fft.bodybody.gyroscope.magnitude.mean"           
 [66] "fft.bodybody.gyroscope.magnitude.std"       
 [67] "fft.bodybody.gyroscope.jerkmagnitude.mean"  
 [68] "fft.bodybody.gyroscope.jerkmagnitude.std"
